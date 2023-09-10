@@ -18,8 +18,8 @@ class ProjectX(Resource):
         "current_day": datetime.now().strftime("%A"),
         "utc_time": datetime.now().strftime("%Y-%m-%dT%XZ"),
         "track": args["track"],
-        "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
-        "github_repo_url": "https://github.com/username/repo",
+        "github_file_url": "https://github.com/chikeorah/HNGx-Project1/blob/main/api.py",
+        "github_repo_url": "https://github.com/chikeorah/HNGx-Project1",
         "status_code": 200
         }
     
