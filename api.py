@@ -26,3 +26,6 @@ class ProjectX(Resource):
     return projectData
 
 api.add_resource(ProjectX, '/api/')
+
+if __name__ == "__main__":
+  app.run(debug=True)
